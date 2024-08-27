@@ -103,7 +103,7 @@ export default function Home() {
       </section>
 
       <section className="w-full max-w-4xl mx-auto mb-8 sm:mb-12">
-        <h1 className="text-lg sm:text-xl font-bold mb-4 sm:mb-5">Skills</h1>
+        <h1 className="text-lg sm:text-xl font-bold mb-4">Skills</h1>
         <div className="flex flex-wrap gap-4">
           {portfolio.skill_images.map((skill, index) => (
             <div className="relative group" key={index}>
