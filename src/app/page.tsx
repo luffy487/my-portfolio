@@ -103,7 +103,7 @@ export default function Home() {
       </section>
 
       <section className="w-full max-w-4xl mx-auto mb-8 sm:mb-12">
-        <h1 className="text-lg sm:text-xl font-bold mb-4">Skills</h1>
+        <h1 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">Skills</h1>
         <div className="flex flex-wrap gap-4">
           {portfolio.skill_images.map((skill, index) => (
             <div className="relative group" key={index}>
@@ -161,7 +161,7 @@ export default function Home() {
                     <div className="text-sm">{exp.time_period}</div>
                   </div>
                 </div>
-                <div className="text-sm sm:text-md mt-2">{exp.role}</div>
+                <div className="text-sm sm:text-md mt-2 text-gray-600">{exp.role}</div>
                 <ul className="mt-4 text-gray-700 list-disc list-inside space-y-1 sm:space-y-2">
                   {exp.work.map((work: string, workIndex: number) => (
                     <li key={workIndex}>{work}</li>
