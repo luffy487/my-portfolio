@@ -35,7 +35,7 @@ export default function Home() {
                 height={25}
               />
             </div>
-            <div className="flex items-center space-x-2 mt-1">
+            <div className="flex items-center justify-center md:justify-start space-x-2">
               <h3 className="text-md sm:text-xl text-gray-700">
                 {portfolio.role}
               </h3>
