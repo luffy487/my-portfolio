@@ -18,7 +18,7 @@ export const portfolio = {
   ],
   image: "https://raw.githubusercontent.com/luffy487/files/main/profile.jpg",
   resume:
-    "https://drive.google.com/file/d/1fBByoi-92qscdxtWRYTdtVGpuZ2If6_J/view?pli=1",
+    "https://drive.google.com/file/d/1yoKENgMkKgL6k2yRh5poEHoRiISjqUi0/view?usp=drive_link",
   skill_images: [
     {
       name: "Ethereum",
@@ -65,19 +65,8 @@ export const portfolio = {
   experience: [
     {
       company_name: "Hallmark Global Technologies",
-      time_period: "11/2022 - 05/2023",
-      role: "Software Engineer Trainee",
-      work: [
-        "Multi-Tenancy API Development: Implemented multi-tenancy APIs for Kodefast, a low-code platform, using Node.js.",
-        "Data Migration: Worked on migrating data from sheets to databases, optimizing the process for clean data integration.",
-        "Feature Development: Contributed to multiple features of Kodefast, developing numerous APIs across various modules.",
-        "User Interface Creation: Created interactive user interfaces using Vue.js to enhance user experience.",
-      ],
-    },
-    {
-      company_name: "Hallmark Global Technologies",
-      time_period: "05/2023 - Current",
-      role: "Junior Software Engineer",
+      time_period: "May 2023 - Present",
+      role: "Software Engineer",
       work: [
         "Microservices Integration: Integrated multiple microservices into the Kodefast system, enhancing the platform's modularity and scalability.",
         "Advanced Node.js Concepts: Utilized advanced Node.js features like Web Workers and developed a microservice for a queue system using Bull Queue.",
@@ -85,6 +74,17 @@ export const portfolio = {
         "Interactive UI Development: Implemented more interactive user interfaces, including dashboards and notification systems, using Vue.js.",
         "Problem-Solving & Optimization: Delivered optimized and dynamic solutions for various problem statements, contributing to the development of several features for Kodefast.",
         "Educational Platform Development: Played a key role in building a complex education platform using Kodefast, ensuring robust and scalable architecture.",
+      ],
+    },
+    {
+      company_name: "Hallmark Global Technologies",
+      time_period: "Nov 2022 - May 2023",
+      role: "Software Engineer Trainee",
+      work: [
+        "Multi-Tenancy API Development: Implemented multi-tenancy APIs for Kodefast, a low-code platform, using Node.js.",
+        "Data Migration: Worked on migrating data from sheets to databases, optimizing the process for clean data integration.",
+        "Feature Development: Contributed to multiple features of Kodefast, developing numerous APIs across various modules.",
+        "User Interface Creation: Created interactive user interfaces using Vue.js to enhance user experience.",
       ],
     },
   ],
