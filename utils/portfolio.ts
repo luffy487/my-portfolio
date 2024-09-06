@@ -6,6 +6,7 @@ export const portfolio = {
   github: "https://github.com/luffy487",
   discord: "https://discord.com/users/696783849656680529",
   linkedin: "https://www.linkedin.com/in/vibhakar-vaddi-348545228/",
+  x: "https://x.com/vibhakar487",
   role: "Software Developer",
   skills: [
     "Ethereum",
