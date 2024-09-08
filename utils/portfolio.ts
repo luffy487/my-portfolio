@@ -7,6 +7,7 @@ export const portfolio = {
   discord: "https://discord.com/users/696783849656680529",
   linkedin: "https://www.linkedin.com/in/vibhakar-vaddi-348545228/",
   x: "https://x.com/vibhakar487",
+  etherscan : "https://sepolia.etherscan.io/address/0x02e3722C7287F5C5cE778f37dc1b60D5a42a2572",
   role: "Software Developer",
   skills: [
     "Ethereum",

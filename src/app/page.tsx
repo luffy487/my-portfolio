@@ -99,6 +99,12 @@ export default function Home() {
               >
                 <Image src="/x.png" alt="x" width={35} height={35} />
               </button>
+              <button
+                onClick={() => redirectToURL(portfolio.etherscan)}
+                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors duration-300"
+              >
+                <Image src="/ethereum.png" alt="x" width={30} height={30} />
+              </button>
             </div>
           </div>
         </div>
