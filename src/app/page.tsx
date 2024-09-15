@@ -265,6 +265,11 @@ export default function Home() {
           </div>
         )}
       </section>
+      <footer className="text-center mt-12 mb-5">
+        <p className="text-sm text-gray-500">
+          &copy; 2024 Vibhakar. All rights and wrongs are reserved.
+        </p>
+      </footer>
     </main>
   );
 }
