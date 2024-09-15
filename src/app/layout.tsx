@@ -18,11 +18,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <footer className="text-center mt-12 mb-5">
-        <p className="text-sm text-gray-500">
-          &copy; 2024 Vibhakar. All rights and wrongs are reserved.
-        </p>
-      </footer>
+        <footer className="text-center mt-12 mb-5 bg-gray-50">
+          <p className="text-sm text-gray-500">
+            &copy; 2024 Vibhakar. All rights and wrongs are reserved.
+          </p>
+        </footer>
       </body>
     </html>
   );
