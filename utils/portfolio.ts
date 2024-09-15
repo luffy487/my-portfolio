@@ -7,7 +7,8 @@ export const portfolio = {
   discord: "https://discord.com/users/696783849656680529",
   linkedin: "https://www.linkedin.com/in/vibhakar-vaddi-348545228/",
   x: "https://x.com/vibhakar487",
-  etherscan : "https://sepolia.etherscan.io/address/0x02e3722C7287F5C5cE778f37dc1b60D5a42a2572",
+  etherscan:
+    "https://sepolia.etherscan.io/address/0x02e3722C7287F5C5cE778f37dc1b60D5a42a2572",
   role: "Software Developer",
   skills: [
     "Ethereum",
@@ -20,7 +21,7 @@ export const portfolio = {
   ],
   image: "https://raw.githubusercontent.com/luffy487/files/main/profile.jpg",
   resume:
-    "https://drive.google.com/file/d/1yoKENgMkKgL6k2yRh5poEHoRiISjqUi0/view?usp=drive_link",
+    "https://drive.google.com/file/d/1yoKENgMkKgL6k2yRh5poEHoRiISjqUi0/view",
   skill_images: [
     {
       name: "Ethereum",
@@ -92,13 +93,44 @@ export const portfolio = {
   ],
   projects: [
     {
-      name: "Kodefast",
-      link: "https://kodefast.com/",
+      name: "Quanta",
+      link: "https://quanta-ecru.vercel.app/",
+      github: "https://github.com/luffy487/quanta",
+      smartcontract: "",
       description:
-        "Kodefast is a low-code platform for creating and customizing applications with real-time capabilities and automation. It supports dashboards, reports, and multi-tenancy, leveraging AI-powered prompts for development. I contributed significantly using Node.js and Vue.js to enhance user experience.",
+        "Developed a decentralized DeFi platform for lending and borrowing, allowing users to earn fixed interest on deposits and borrow assets by providing collateral. The platform offers secure, flexible options with dynamic interest rates based on utilization.",
       image:
-        "https://raw.githubusercontent.com/luffy487/files/main/Kodefast%201.png",
-      tech: ["Node.js", "Vue.js"],
+        "https://raw.githubusercontent.com/luffy487/files/main/Screenshot%202024-09-16%20003113.png",
+      tech: ["Solidity", "Foundry", "Next.js", "Tailwind CSS", "Web3.js"],
+    },
+    {
+      name: "OnePiece NFT Marketplace",
+      link: "https://nft-marketplace-omfu.vercel.app/",
+      github: "https://github.com/luffy487/nft-marketplace",
+      smartcontract: "https://github.com/luffy487/nft-store",
+      description:
+        "Developed the ERC-721 NFT collection OnePiece (symbol: OP) for minting, buying, selling, and relisting NFTs, with details stored on IPFS. The smart contract was built in Solidity and deployed on Sepolia. Future plans include adding Royalty NFTs.",
+      image:
+        "https://raw.githubusercontent.com/luffy487/files/main/nft-marketplace.png",
+      tech: [
+        "Solidity",
+        "Foundry",
+        "Next.js",
+        "Tailwind CSS",
+        "Web3.js",
+        "Thirdweb SDK",
+      ],
+    },
+    {
+      name: "Multi-Signature Wallets",
+      link: "https://multi-signature-lovat.vercel.app/",
+      github: "https://github.com/luffy487/multi-signature",
+      smartcontract: "https://github.com/luffy487/multi-sig",
+      description:
+        "Developed a Multi-Signature Wallet Platform, including Multi-Signature and Factory Contracts. Users can create wallets with multiple signers and set approval thresholds. Contracts were tested and deployed on Sepolia.",
+      image:
+        "https://raw.githubusercontent.com/luffy487/files/main/multi-sig.png",
+      tech: ["Solidity", "Foundry", "Next.js", "Tailwind CSS", "Web3.js"],
     },
     {
       name: "Crypto Tic Tac Toe",
@@ -122,40 +154,20 @@ export const portfolio = {
       tech: ["React.js", "Tailwind CSS"],
     },
     {
-      name: "Multi-Signature Wallets",
-      link: "https://multi-signature-lovat.vercel.app/",
-      github: "https://github.com/luffy487/multi-signature",
-      smartcontract: "https://github.com/luffy487/multi-sig",
-      description:
-        "Developed a Multi-Signature Wallet Platform, including Multi-Signature and Factory Contracts. Users can create wallets with multiple signers and set approval thresholds. Contracts were tested and deployed on Sepolia.",
-      image:
-        "https://raw.githubusercontent.com/luffy487/files/main/multi-sig.png",
-      tech: ["Solidity", "Foundry", "Next.js", "Tailwind CSS", "Web3.js"],
-    },
-    {
-      name: "OnePiece NFT Marketplace",
-      link: "https://nft-marketplace-omfu.vercel.app/",
-      github: "https://github.com/luffy487/nft-marketplace",
-      smartcontract: "https://github.com/luffy487/nft-store",
-      description:
-        "Developed the ERC-721 NFT collection OnePiece (symbol: OP) for minting, buying, selling, and relisting NFTs, with details stored on IPFS. The smart contract was built in Solidity and deployed on Sepolia. Future plans include adding Royalty NFTs.",
-      image:
-        "https://raw.githubusercontent.com/luffy487/files/main/nft-marketplace.png",
-      tech: [
-        "Solidity",
-        "Foundry",
-        "Next.js",
-        "Tailwind CSS",
-        "Web3.js",
-        "Thirdweb SDK",
-      ],
-    },
-    {
       name: "Arbitrage Bot (Uniswap and SushiSwap)",
       github: "https://github.com/luffy487/arbitrage-using-contracts",
       description:
         "Developed a Node.js script to identify arbitrage opportunities between Uniswap and Sushiswap DEXs. Users input profit percentage and slippage, and the script detects price discrepancies, executing profitable swaps. Future plans include integrating more DEXs and refining the approach to blockchain-based interactions for arbitrage.",
       tech: ["Node.js"],
+    },
+    {
+      name: "Kodefast",
+      link: "https://kodefast.com/",
+      description:
+        "Kodefast is a low-code platform for creating and customizing applications with real-time capabilities and automation. It supports dashboards, reports, and multi-tenancy, leveraging AI-powered prompts for development. I contributed significantly using Node.js and Vue.js to enhance user experience.",
+      image:
+        "https://raw.githubusercontent.com/luffy487/files/main/Kodefast%201.png",
+      tech: ["Node.js", "Vue.js"],
     },
   ],
 };
