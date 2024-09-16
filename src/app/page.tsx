@@ -4,7 +4,7 @@ import { portfolio } from "../../utils/portfolio";
 import Image from "next/image";
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState("experience");
+  const [activeTab, setActiveTab] = useState("projects");
 
   const redirectToURL = (url: string) => {
     window.open(url, "_blank");
@@ -139,16 +139,6 @@ export default function Home() {
       <section className="w-full max-w-4xl mx-auto mb-8 sm:mb-12">
         <div className="flex flex-col sm:flex-row border-b border-gray-300">
           <button
-            onClick={() => setActiveTab("experience")}
-            className={`py-2 sm:py-3 px-4 sm:px-6 text-md sm:text-lg font-semibold transition-all duration-300 ease-in-out ${
-              activeTab === "experience"
-                ? "text-blue-600 border-b-4 border-blue-600 bg-white shadow-md"
-                : "text-gray-600 bg-gray-100 border-b-4 border-transparent"
-            } rounded-t-lg`}
-          >
-            Experience
-          </button>
-          <button
             onClick={() => setActiveTab("projects")}
             className={`py-2 sm:py-3 px-4 sm:px-6 text-md sm:text-lg font-semibold transition-all duration-300 ease-in-out ${
               activeTab === "projects"
@@ -157,6 +147,16 @@ export default function Home() {
             } rounded-t-lg`}
           >
             Projects
+          </button>
+          <button
+            onClick={() => setActiveTab("experience")}
+            className={`py-2 sm:py-3 px-4 sm:px-6 text-md sm:text-lg font-semibold transition-all duration-300 ease-in-out ${
+              activeTab === "experience"
+                ? "text-blue-600 border-b-4 border-blue-600 bg-white shadow-md"
+                : "text-gray-600 bg-gray-100 border-b-4 border-transparent"
+            } rounded-t-lg`}
+          >
+            Experience
           </button>
         </div>
 
