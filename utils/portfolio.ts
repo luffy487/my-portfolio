@@ -96,7 +96,7 @@ export const portfolio = {
       name: "Quanta",
       link: "https://quanta-ecru.vercel.app/",
       github: "https://github.com/luffy487/quanta",
-      smartcontract: "",
+      smartcontract: "https://github.com/luffy487/DeFi",
       description:
         "Developed a decentralized DeFi platform for lending and borrowing, allowing users to earn fixed interest on deposits and borrow assets by providing collateral. The platform offers secure, flexible options with dynamic interest rates based on utilization.",
       image:
