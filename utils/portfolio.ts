@@ -2,13 +2,38 @@ export const portfolio = {
   name: "Vibhakar Vaddi",
   summary:
     "With over a year of experience in Ethereum blockchain development, I've deployed ERC-20 tokens, ERC-721 NFTs, and multi-signature contracts on the Sepolia testnet using Foundry. I specialize in integrating smart contracts with React.js, Next.js, and Tailwind CSS. My background also includes Web2 development with Vue.js, Node.js, and MongoDB, and I'm well-versed in DEXs, DeFi protocols, and decentralized storage like IPFS. Ready for new Web3 challenges. Let's build something great!",
-  email: "vibhakar.vaddi@gmail.com",
-  github: "https://github.com/luffy487",
-  discord: "https://discord.com/users/696783849656680529",
-  linkedin: "https://www.linkedin.com/in/vibhakar-vaddi-348545228/",
-  x: "https://x.com/vibhakar487",
-  etherscan:
-    "https://sepolia.etherscan.io/address/0x02e3722C7287F5C5cE778f37dc1b60D5a42a2572",
+  social: [
+    {
+      name: "Github",
+      url: "https://github.com/luffy487",
+      image: "/github.png",
+    },
+    {
+      name: "Email",
+      url: "mailto:vibhakar.vaddi@gmail.com",
+      image: "/email.png",
+    },
+    {
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/vibhakar-vaddi-348545228/",
+      image: "/linkedin.png",
+    },
+    {
+      name: "Discord",
+      url: "https://discord.com/users/696783849656680529",
+      image: "/discord.png",
+    },
+    {
+      name: "X",
+      url: "https://x.com/vibhakar487",
+      image: "/x.png",
+    },
+    {
+      name: "Etherscan",
+      url: "https://sepolia.etherscan.io/address/0x02e3722C7287F5C5cE778f37dc1b60D5a42a2572",
+      image: "/ethereum.png",
+    },
+  ],
   role: "Software Developer",
   skills: [
     "Ethereum",
@@ -170,4 +195,11 @@ export const portfolio = {
       tech: ["Node.js", "Vue.js"],
     },
   ],
+  ctfs : [
+    {
+      name : "Damn Vulnerable DeFi v4.0",
+      description : "",
+      github : ""
+    },
+  ]
 };

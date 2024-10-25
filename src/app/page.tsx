@@ -59,52 +59,20 @@ export default function Home() {
               ))}
             </div>
             <div className="mt-2 flex justify-center md:justify-start gap-2">
-              <button
-                onClick={() => redirectToURL(portfolio.github)}
-                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors duration-300"
-              >
-                <Image src="/github.png" alt="Github" width={35} height={35} />
-              </button>
-              <button
-                onClick={() => redirectToURL(`mailto:${portfolio.email}`)}
-                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors duration-300"
-              >
-                <Image src="/email.png" alt="email" width={30} height={30} />
-              </button>
-              <button
-                onClick={() => redirectToURL(portfolio.linkedin)}
-                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors duration-300"
-              >
-                <Image
-                  src="/linkedin.png"
-                  alt="linkedin"
-                  width={30}
-                  height={30}
-                />
-              </button>
-              <button
-                onClick={() => redirectToURL(portfolio.discord)}
-                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors duration-300"
-              >
-                <Image
-                  src="/discord.png"
-                  alt="discord"
-                  width={30}
-                  height={30}
-                />
-              </button>
-              <button
-                onClick={() => redirectToURL(portfolio.x)}
-                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors duration-300"
-              >
-                <Image src="/x.png" alt="x" width={35} height={35} />
-              </button>
-              <button
-                onClick={() => redirectToURL(portfolio.etherscan)}
-                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors duration-300"
-              >
-                <Image src="/ethereum.png" alt="x" width={30} height={30} />
-              </button>
+              {portfolio.social.map((social, index: number) => (
+                <button
+                  key={index}
+                  onClick={() => redirectToURL(social.url)}
+                  className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors duration-300"
+                >
+                  <Image
+                    src={social.image}
+                    alt={social.name}
+                    width={35}
+                    height={35}
+                  ></Image>
+                </button>
+              ))}
             </div>
           </div>
         </div>
@@ -157,6 +125,16 @@ export default function Home() {
             } rounded-t-lg`}
           >
             Experience
+          </button>
+          <button
+            onClick={() => setActiveTab("ctfs")}
+            className={`py-2 sm:py-3 px-4 sm:px-6 text-md sm:text-lg font-semibold transition-all duration-300 ease-in-out ${
+              activeTab === "ctfs"
+                ? "text-blue-600 border-b-4 border-blue-600 bg-white shadow-md"
+                : "text-gray-600 bg-gray-100 border-b-4 border-transparent"
+            } rounded-t-lg`}
+          >
+            CTFs
           </button>
         </div>
 
@@ -264,6 +242,14 @@ export default function Home() {
             ))}
           </div>
         )}
+
+        {
+          activeTab === "ctfs" && (
+            <div className="mt-4 sm:mt-6 bg-white p-6 sm:p-8 rounded-lg shadow-lg">
+
+            </div>
+          )
+        }
       </section>
       <footer className="text-center mt-12 mb-5">
         <p className="text-sm text-gray-500">
