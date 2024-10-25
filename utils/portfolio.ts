@@ -1,7 +1,7 @@
 export const portfolio = {
   name: "Vibhakar Vaddi",
   summary:
-    "With over a year of experience in Ethereum blockchain development, I've deployed ERC-20 tokens, ERC-721 NFTs, and multi-signature contracts on the Sepolia testnet using Foundry. I specialize in integrating smart contracts with React.js, Next.js, and Tailwind CSS. My background also includes Web2 development with Vue.js, Node.js, and MongoDB, and I'm well-versed in DEXs, DeFi protocols, and decentralized storage like IPFS. Ready for new Web3 challenges. Let's build something great!",
+    "I am a Web3 enthusiast inspired by the transformative potential of decentralized systems. With a solid understanding of blockchain fundamentals and hands-on experience building Solidity projects, I have created a range of applications, including ERC-20 tokens, NFTs, and DeFi protocols. Recently, I’ve been exploring EVM opcodes and Ethereum CTFs to deepen my understanding of low-level operations and gas optimizations. I’m also expanding my skills into Solana and Rust. My background as a Web2 full-stack developer enables me to approach each challenge with a structured and user-focused mindset, while I remain committed to staying updated on the latest advancements in the field.",
   social: [
     {
       name: "Github",
@@ -37,12 +37,9 @@ export const portfolio = {
   role: "Software Developer",
   skills: [
     "Ethereum",
-    "Solidity",
-    "Foundry",
-    "Vue",
-    "React",
-    "Node.js",
-    "Next.js",
+    "Solana",
+    "CTFs (Web3)",
+    "EVM"
   ],
   image: "https://raw.githubusercontent.com/luffy487/files/main/profile.jpg",
   resume:
@@ -197,9 +194,10 @@ export const portfolio = {
   ],
   ctfs : [
     {
-      name : "Damn Vulnerable DeFi v4.0",
-      description : "",
-      github : ""
+      name : "Damn Vulnerable DeFi v4.0 (by thereguild)",
+      url : "https://www.damnvulnerabledefi.xyz/",
+      description : `Damn Vulnerable DeFi is a learning platform and smart contract-based challenge that focuses on security in decentralized finance (DeFi) applications. Inspired by the format of "capture-the-flag" (CTF) challenges in cybersecurity, This offers participants a series of exercises designed to exploit vulnerabilities within Solidity smart contracts, with each challenge representing a different real-world DeFi vulnerability.`,
+      solution : "https://github.com/luffy487/damn-vulnerable-defi-solutions"
     },
   ]
 };

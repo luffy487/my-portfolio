@@ -58,7 +58,7 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <div className="mt-2 flex justify-center md:justify-start gap-2">
+            <div className="mt-6 flex justify-center md:justify-start gap-2">
               {portfolio.social.map((social, index: number) => (
                 <button
                   key={index}
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="text-left mb-8 sm:mb-12 max-w-4xl mx-auto mt-6 sm:mt-8">
+      <section className="text-left mb-6 sm:mb-12 max-w-4xl mx-auto mt-4 sm:mt-6">
         <p className="text-gray-700 leading-relaxed">{portfolio.summary}</p>
       </section>
 
@@ -243,13 +243,31 @@ export default function Home() {
           </div>
         )}
 
-        {
-          activeTab === "ctfs" && (
-            <div className="mt-4 sm:mt-6 bg-white p-6 sm:p-8 rounded-lg shadow-lg">
-
-            </div>
-          )
-        }
+        {activeTab === "ctfs" && (
+          <div className="mt-4 sm:mt-6 bg-white p-6 sm:p-8 rounded-lg shadow-lg">
+            {portfolio.ctfs.map((ctf, index) => (
+              <div
+                key={index}
+                className="mb-6 sm:mb-8 p-4 sm:p-6 bg-gray-50 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300"
+              >
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 hover:cursor-pointer" onClick={() => redirectToURL(ctf.url)}>
+                  {ctf.name}
+                </h3>
+                <p className="text-gray-700 mt-2 text-sm sm:text-base">
+                  {ctf.description}
+                </p>
+                <div className="text-gray-700 mt-2 text-sm sm:text-base flex space-x-1">
+                  <a
+                    onClick={() => redirectToURL(ctf.solution)}
+                    className="text-black underline hover:cursor-pointer"
+                  >
+                    {ctf.solution}
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
       </section>
       <footer className="text-center mt-12 mb-5">
         <p className="text-sm text-gray-500">
