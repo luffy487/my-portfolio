@@ -1,7 +1,7 @@
 export const portfolio = {
   name: "Vibhakar Vaddi",
   summary:
-    "I am a Web3 enthusiast inspired by the transformative potential of decentralized systems. With a solid understanding of blockchain fundamentals and hands-on experience building Solidity projects, I have created a range of applications, including ERC-20 tokens, NFTs, and DeFi protocols. Recently, I’ve been exploring EVM opcodes and Ethereum CTFs to deepen my understanding of low-level operations and gas optimizations. I’m also expanding my skills into Solana and Rust. My background as a Web2 full-stack developer enables me to approach each challenge with a structured and user-focused mindset, while I remain committed to staying updated on the latest advancements in the field.",
+    "I am a Blockchain enthusiast inspired by the transformative potential of decentralized systems. With a solid understanding of blockchain fundamentals and hands-on experience building Solidity projects, I have created a range of applications, including ERC-20 tokens, NFTs, and DeFi protocols. Recently, I’ve been exploring EVM opcodes and Ethereum CTFs to deepen my understanding of low-level operations and gas optimizations. I’m also expanding my skills into Solana and Rust. My background as a Web2 full-stack developer enables me to approach each challenge with a structured and user-focused mindset, while I remain committed to staying updated on the latest advancements in the field.",
   social: [
     {
       name: "Github",
