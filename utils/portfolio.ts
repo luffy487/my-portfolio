@@ -199,5 +199,11 @@ export const portfolio = {
       description : `Damn Vulnerable DeFi is a learning platform and smart contract-based challenge that focuses on security in decentralized finance (DeFi) applications. Inspired by the format of "capture-the-flag" (CTF) challenges in cybersecurity, This offers participants a series of exercises designed to exploit vulnerabilities within Solidity smart contracts, with each challenge representing a different real-world DeFi vulnerability.`,
       solution : "https://github.com/luffy487/damn-vulnerable-defi-solutions"
     },
+    {
+      name : "EVM Puzzles",
+      url : "https://github.com/fvictorio/evm-puzzles",
+      description : "A collection of EVM puzzles. Each puzzle consists on sending a successful transaction to a contract. The bytecode of the contract is provided, and you need to fill the transaction data that won't revert the execution.",
+      solution : ""
+    }
   ]
 };
