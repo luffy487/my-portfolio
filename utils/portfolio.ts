@@ -61,6 +61,18 @@ export const portfolio = {
         "https://raw.githubusercontent.com/luffy487/files/main/foundry.png",
     },
     {
+      name : "Solana",
+      image : "https://raw.githubusercontent.com/luffy487/files/refs/heads/main/solana-sol-logo.png"
+    },
+    {
+      name : "Rust",
+      image: "https://raw.githubusercontent.com/luffy487/files/refs/heads/main/rust-programming-language-icon.png"
+    },
+    {
+      name : "Anchor",
+      image : "https://raw.githubusercontent.com/luffy487/files/refs/heads/main/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f46565556614f3958454141756c764b3f666f726d61743d706e67266e616d653d736d616c6c.png"
+    },
+    {
       name: "Next.js",
       image: "https://raw.githubusercontent.com/luffy487/files/main/next.png",
     },
@@ -68,15 +80,6 @@ export const portfolio = {
       name: "React.js",
       image:
         "https://raw.githubusercontent.com/luffy487/files/main/pngwing.com.png",
-    },
-    {
-      name: "Web3.js",
-      image: "https://raw.githubusercontent.com/luffy487/files/main/web3.png",
-    },
-    {
-      name: "Tailwind CSS",
-      image:
-        "https://raw.githubusercontent.com/luffy487/files/main/Tailwind%20CSS.png",
     },
     {
       name: "Vue",
@@ -114,6 +117,12 @@ export const portfolio = {
     },
   ],
   projects: [
+    {
+      name : "Multi-Signature Wallets (Solana)",
+      github : "https://github.com/luffy487/multi-signature-wallet",
+      description : "The Multi-Signature Wallet on Solana is a decentralized application (DApp) designed to create, manage, and execute transactions securely through a multi-signature mechanism. This project is built using Anchor, a framework for Solana programs, and leverages the Solana blockchain's security and speed to ensure efficient transaction management among multiple authorized users.",
+      tech : ["Rust", "Anchor"]
+    },
     {
       name: "Quanta",
       link: "https://quanta-ecru.vercel.app/",
