@@ -43,7 +43,7 @@ export const portfolio = {
   ],
   image: "https://raw.githubusercontent.com/luffy487/files/main/profile.jpg",
   resume:
-    "https://drive.google.com/file/d/1yoKENgMkKgL6k2yRh5poEHoRiISjqUi0/view",
+    "https://drive.google.com/file/d/1P82LRI8uwbzjAlOaawqIHsF4fBVYmRcO/view?usp=sharing",
   skill_images: [
     {
       name: "Ethereum",
