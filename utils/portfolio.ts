@@ -1,7 +1,7 @@
 export const portfolio = {
   name: "Vibhakar Vaddi",
   summary:
-    "I am a Blockchain enthusiast inspired by the transformative potential of decentralized systems. With a solid understanding of blockchain fundamentals and hands-on experience building Solidity projects, I have created a range of applications, including ERC-20 tokens, NFTs, and DeFi protocols. Recently, I’ve been exploring EVM opcodes and Ethereum CTFs to deepen my understanding of low-level operations and gas optimizations. I’m also expanding my skills into Solana and Rust. My background as a Web2 full-stack developer enables me to approach each challenge with a structured and user-focused mindset, while I remain committed to staying updated on the latest advancements in the field.",
+    "I am a Blockchain enthusiast driven by the transformative potential of decentralized systems. With a strong foundation in blockchain technology and hands-on experience in building projects on platforms like Ethereum, Sui, and Solana, I have developed a variety of applications, including ERC-20 tokens, NFTs, DeFi protocols, and lottery contracts. My recent focus includes delving into EVM opcodes, Ethereum CTFs, and gas optimization techniques to enhance my understanding of low-level operations. Additionally, I am expanding my expertise in Solana and Rust, alongside exploring Sui’s capabilities. My background as a Web2 full-stack developer allows me to tackle challenges with a structured, user-centric approach, while I stay committed to keeping pace with the latest advancements in the blockchain space.",
   social: [
     {
       name: "Github",
@@ -35,12 +35,7 @@ export const portfolio = {
     },
   ],
   role: "Software Developer",
-  skills: [
-    "Ethereum",
-    "Solana",
-    "CTFs (Web3)",
-    "EVM"
-  ],
+  skills: ["Ethereum", "Solana", "Sui", "Public Audits"],
   image: "https://raw.githubusercontent.com/luffy487/files/main/profile.jpg",
   resume:
     "https://drive.google.com/file/d/1P82LRI8uwbzjAlOaawqIHsF4fBVYmRcO/view?usp=sharing",
@@ -49,6 +44,16 @@ export const portfolio = {
       name: "Ethereum",
       image:
         "https://raw.githubusercontent.com/luffy487/files/main/ethereum.png",
+    },
+    {
+      name: "Solana",
+      image:
+        "https://raw.githubusercontent.com/luffy487/files/refs/heads/main/solana-sol-logo.png",
+    },
+    {
+      name: "Sui",
+      image:
+        "https://raw.githubusercontent.com/luffy487/files/refs/heads/main/sui-sui-logo.png",
     },
     {
       name: "Solidity",
@@ -61,16 +66,14 @@ export const portfolio = {
         "https://raw.githubusercontent.com/luffy487/files/main/foundry.png",
     },
     {
-      name : "Solana",
-      image : "https://raw.githubusercontent.com/luffy487/files/refs/heads/main/solana-sol-logo.png"
+      name: "Rust",
+      image:
+        "https://raw.githubusercontent.com/luffy487/files/refs/heads/main/rust-programming-language-icon.png",
     },
     {
-      name : "Rust",
-      image: "https://raw.githubusercontent.com/luffy487/files/refs/heads/main/rust-programming-language-icon.png"
-    },
-    {
-      name : "Anchor",
-      image : "https://raw.githubusercontent.com/luffy487/files/refs/heads/main/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f46565556614f3958454141756c764b3f666f726d61743d706e67266e616d653d736d616c6c.png"
+      name: "Anchor",
+      image:
+        "https://raw.githubusercontent.com/luffy487/files/refs/heads/main/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f46565556614f3958454141756c764b3f666f726d61743d706e67266e616d653d736d616c6c.png",
     },
     {
       name: "Next.js",
@@ -118,10 +121,18 @@ export const portfolio = {
   ],
   projects: [
     {
-      name : "Multi-Signature Wallets (Solana)",
-      github : "https://github.com/luffy487/multi-signature-wallet",
-      description : "The Multi-Signature Wallet on Solana is a decentralized application (DApp) designed to create, manage, and execute transactions securely through a multi-signature mechanism. This project is built using Anchor, a framework for Solana programs, and leverages the Solana blockchain's security and speed to ensure efficient transaction management among multiple authorized users.",
-      tech : ["Rust", "Anchor"]
+      name: "Lottery (Sui)",
+      github: "https://github.com/luffy487/lottery",
+      description:
+        "The Lottery smart contract on the Sui blockchain allows for the creation of lotteries with ticket fees paid in the native SUI token. Users can purchase tickets to participate in the lottery. The owner is responsible for drawing the winner, after which a portion of the total funds is allocated to the owner as fees, while the remaining amount is awarded to the winner.",
+      tech: ["Sui | Move"],
+    },
+    {
+      name: "Multi-Signature Wallets (Solana)",
+      github: "https://github.com/luffy487/multi-signature-wallet",
+      description:
+        "The Multi-Signature Wallet on Solana is a decentralized application (DApp) designed to create, manage, and execute transactions securely through a multi-signature mechanism. This project is built using Anchor, a framework for Solana programs, and leverages the Solana blockchain's security and speed to ensure efficient transaction management among multiple authorized users.",
+      tech: ["Rust", "Anchor"],
     },
     {
       name: "Quanta",
@@ -201,18 +212,19 @@ export const portfolio = {
       tech: ["Node.js", "Vue.js"],
     },
   ],
-  ctfs : [
+  ctfs: [
     {
-      name : "Damn Vulnerable DeFi v4.0 (by thereguild)",
-      url : "https://www.damnvulnerabledefi.xyz/",
-      description : `Damn Vulnerable DeFi is a learning platform and smart contract-based challenge that focuses on security in decentralized finance (DeFi) applications. Inspired by the format of "capture-the-flag" (CTF) challenges in cybersecurity, This offers participants a series of exercises designed to exploit vulnerabilities within Solidity smart contracts, with each challenge representing a different real-world DeFi vulnerability.`,
-      solution : "https://github.com/luffy487/damn-vulnerable-defi-solutions"
+      name: "Damn Vulnerable DeFi v4.0 (by thereguild)",
+      url: "https://www.damnvulnerabledefi.xyz/",
+      description: `Damn Vulnerable DeFi is a learning platform and smart contract-based challenge that focuses on security in decentralized finance (DeFi) applications. Inspired by the format of "capture-the-flag" (CTF) challenges in cybersecurity, This offers participants a series of exercises designed to exploit vulnerabilities within Solidity smart contracts, with each challenge representing a different real-world DeFi vulnerability.`,
+      solution: "https://github.com/luffy487/damn-vulnerable-defi-solutions",
     },
     {
-      name : "EVM Puzzles",
-      url : "https://github.com/fvictorio/evm-puzzles",
-      description : "A collection of EVM puzzles. Each puzzle consists on sending a successful transaction to a contract. The bytecode of the contract is provided, and you need to fill the transaction data that won't revert the execution.",
-      solution : ""
-    }
-  ]
+      name: "EVM Puzzles",
+      url: "https://github.com/fvictorio/evm-puzzles",
+      description:
+        "A collection of EVM puzzles. Each puzzle consists on sending a successful transaction to a contract. The bytecode of the contract is provided, and you need to fill the transaction data that won't revert the execution.",
+      solution: "",
+    },
+  ],
 };
