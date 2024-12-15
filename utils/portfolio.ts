@@ -1,7 +1,7 @@
 export const portfolio = {
   name: "Vibhakar Vaddi",
   summary:
-    "I am a Blockchain enthusiast driven by the transformative potential of decentralized systems. With a strong foundation in blockchain technology and hands-on experience in building projects on platforms like Ethereum, Sui, and Solana, I have developed a variety of applications, including ERC-20 tokens, NFTs, DeFi protocols, and lottery contracts. My recent focus includes delving into EVM opcodes, Ethereum CTFs, and gas optimization techniques to enhance my understanding of low-level operations. Additionally, I am expanding my expertise in Solana and Rust, alongside exploring Sui’s capabilities. My background as a Web2 full-stack developer allows me to tackle challenges with a structured, user-centric approach, while I stay committed to keeping pace with the latest advancements in the blockchain space.",
+    "I am a Blockchain enthusiast inspired by the transformative potential of decentralized systems. With a strong foundation in blockchain technology and hands-on experience working with networks such as Ethereum, Solana, and Sui, I have developed a variety of applications, including fungible tokens, NFTs, DeFi protocols, and lottery contracts. My recent focus includes exploring low-level operations, such as EVM opcodes, blockchain CTF challenges, and gas optimization techniques. Additionally, I am deepening my expertise in Solana and Rust while leveraging the innovative features of Sui. My background as a Web2 full-stack developer equips me to tackle challenges with a structured and user-centered approach, and I am dedicated to staying current with the latest developments in the blockchain ecosystem.",
   social: [
     {
       name: "Github",
