@@ -121,6 +121,13 @@ export const portfolio = {
   ],
   projects: [
     {
+      name: "spl-token-cli (Solana)",
+      github: "https://github.com/luffy487/spl-token-cli",
+      description:
+        "A Command Line Interface (CLI) tool designed to streamline the management of SPL tokens on the Solana blockchain. This tool allows users to effortlessly create new SPL tokens, mint a specified quantity to designated accounts, and transfer tokens between wallets. It simplifies token-related operations, making it an essential utility for developers and users interacting with the Solana ecosystem.",
+      tech: ["Rust"],
+    },
+    {
       name: "Lottery (Sui)",
       github: "https://github.com/luffy487/lottery",
       description:
